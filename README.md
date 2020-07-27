@@ -2,15 +2,15 @@
 
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![Build Status][build-status]](https://circleci.com/gh/why520crazy/ngx-validator)
-[![npm version](https://badge.fury.io/js/%40why520crazy%2Fngx-validator.svg)](https://www.npmjs.com/@why520crazy/ngx-validator)
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@why520crazy/ngx-validator)
+[![npm version](https://badge.fury.io/js/%40why520crazy%2Fngx-validator.svg)](https://www.npmjs.com/@protradeshare/ngx-validator)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@protradeshare/ngx-validator)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 [coveralls-image]: https://coveralls.io/repos/github/why520crazy/ngx-validator/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/why520crazy/ngx-validator
 [build-status]: https://circleci.com/gh/why520crazy/ngx-validator.svg?style=svg
 
-An Angular 7+ form validator library, may be the best angular validator library in the world.
+An Angular 9+ form validator library, may be the best angular validator library in the world.
 
 > handle validation messages easy and automatic, don't need to manually write error tips templates, just configure validation rules, and support extensive custom feedback strategy.
 
@@ -25,9 +25,9 @@ An Angular 7+ form validator library, may be the best angular validator library 
 ## Installation
 
 ```
-npm install @why520crazy/ngx-validator --save
+npm install @protradeshare/ngx-validator --save
 # or
-yarn add @why520crazy/ngx-validator
+yarn add @protradeshare/ngx-validator
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ yarn add @why520crazy/ngx-validator
 #### Loading the module in the app module
 
 ```
-import { NgxValidatorModule, ValidationFeedbackStrategyBuilder } from '@why520crazy/ngx-validator';
+import { NgxValidatorModule, ValidationFeedbackStrategyBuilder } from '@protradeshare/ngx-validator';
 
 @NgModule({
   imports: [
@@ -198,7 +198,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://www.zhihu.com/people/why520crazy/activities"><img src="https://avatars2.githubusercontent.com/u/3959960?v=4" width="100px;" alt="why520crazy"/><br /><sub><b>why520crazy</b></sub></a><br /><a href="#question-why520crazy" title="Answering Questions">💬</a></td><td align="center"><a href="https://github.com/luxiaobei"><img src="https://avatars1.githubusercontent.com/u/13583957?v=4" width="100px;" alt="luxiaobei"/><br /><sub><b>luxiaobei</b></sub></a><br /><a href="https://github.com/why520carzy/@why520crazy/ngx-validator/commits?author=luxiaobei" title="Code">💻</a></td><td align="center"><a href="https://github.com/walkerkay"><img src="https://avatars1.githubusercontent.com/u/15701592?v=4" width="100px;" alt="Walker"/><br /><sub><b>Walker</b></sub></a><br /><a href="#design-walkerkay" title="Design">🎨</a></td></tr></table>
+<table><tr><td align="center"><a href="https://www.zhihu.com/people/why520crazy/activities"><img src="https://avatars2.githubusercontent.com/u/3959960?v=4" width="100px;" alt="why520crazy"/><br /><sub><b>why520crazy</b></sub></a><br /><a href="#question-why520crazy" title="Answering Questions">💬</a></td><td align="center"><a href="https://github.com/luxiaobei"><img src="https://avatars1.githubusercontent.com/u/13583957?v=4" width="100px;" alt="luxiaobei"/><br /><sub><b>luxiaobei</b></sub></a><br /><a href="https://github.com/why520carzy/@protradeshare/ngx-validator/commits?author=luxiaobei" title="Code">💻</a></td><td align="center"><a href="https://github.com/walkerkay"><img src="https://avatars1.githubusercontent.com/u/15701592?v=4" width="100px;" alt="Walker"/><br /><sub><b>Walker</b></sub></a><br /><a href="#design-walkerkay" title="Design">🎨</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
